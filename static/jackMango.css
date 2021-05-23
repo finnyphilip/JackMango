@@ -1,0 +1,139 @@
+/* 'G:/JackMango_ML/static/img3.jpg.' {{ url_for('static', filename='img3.jpg') }}*/
+.back{
+    
+    background-size: 100%;
+    border: 0px;
+    height: 100%;
+ 
+}
+.header{
+    background-color: rgb(48 29 29 / 33%);
+    width: 100%;
+    height: 71px;
+}
+.head_text{
+    font-family: cursive;
+    font-style: initial;
+    text-align: center;
+    margin: 0px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 40px;
+}
+.aboutme{
+    width: fit-content;
+    padding-left: 90%;
+}
+.about{
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 30px;
+    text-decoration: darkgray;
+    text-decoration-color: darkgray;
+    font-size: 20px;
+    background-color: rgb(140 62 123 / 60%);
+    border-width: 1px;
+    border-color: rgb(216, 228, 210);
+    color: darkgray;
+    
+}
+.center{
+    padding-top: 2%;
+    height: 100%;
+
+}
+.inst_text{
+    text-align: center;
+    color: #050505;
+    margin-bottom: 0px;
+}
+.para{
+    padding-top: 2px;
+    text-align: center;
+    color: #000000;
+    margin-top: 8px;
+}
+.file{
+    height: 30px;
+    text-align: center;
+}
+.submit_btn{
+    background: linear-gradient(#fff,rgb(65 43 43 / 25%));
+    font-weight: bold;
+    width: 18%;
+    border-radius: 30px;
+    padding: 10px;
+    color: #421717;
+    border-color: rgb(255, 196, 0);
+    border-width: 0.4px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    cursor: pointer;
+}
+.submit_btn:hover{
+    background: rgba(185, 130, 108, 0.342);
+    
+}
+.file_select{
+    background: linear-gradient(#fff,rgb(65 43 43 / 25%));
+    font-weight: bold;
+    width: 50%;
+    border-radius: 30px;
+    padding: 10px;
+    color: #380000;
+    border-color: rgba(107, 95, 56, 0.568);
+    border-width: 0.4px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    cursor: pointer;
+}
+.file_select:hover{
+    background: rgba(255, 178, 154, 0.822);
+    
+}
+.preview_img{
+    padding-top: 50px;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.bottom{
+    width: 100%;
+    /* background-color: rgb(219, 120, 33); */
+    /* padding-right: 25%; */
+    height: 50px;
+    
+
+}
+.content{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    /* float: left; */
+    background: linear-gradient(181deg, #ffc3c3, #993b3b00);
+    /* text-shadow: rgb(255, 196, 0); */
+    color:  #29080aba;
+}
+.refresh{
+    width: fit-content;
+    padding-left: 90%;
+}
+/* .re_fresh{
+    border-radius: 30px;
+    text-decoration: darkgray;
+    /* text-decoration-color: darkgray; */
+    /* font-size: 25px;
+    background-color: rgb(140 62 123 / 60%);
+    border-width: 1px;
+    border-color: rgb(216, 228, 210);
+    color: darkgray; */
+/* }  */

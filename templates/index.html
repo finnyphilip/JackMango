@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JackMango-Classifier</title>
+  <!-- <link rel="stylesheet" href="G:/JackMango_ML/static/jackMango.css" type="text/css"> -->
+  <link href="{{ url_for('static', filename='jackMango.css') }}" rel="stylesheet" type="text/css">
+</head>
+<body class="back" style="background-image: url('https://c4.wallpaperflare.com/wallpaper/117/259/706/fruit-8k-mango-wallpaper-preview.jpg');">
+  <div>
+    <div class="header" style="
+    background-color: rgb(48 29 29 / 33%);
+    width: 100%;
+    height: 71px;">
+      <h2 class="head_text" style="
+        font-family: cursive;
+        font-style: initial;
+        text-align: center;
+        margin: 0px;
+        height: 30px;
+        color: #ffffff;
+        font-size: 40px;">JackMango ML Classifier</h2>
+      <div class="aboutme">
+        <a class="about" href="">About</a>
+      </div>
+    </div>
+    <div class="center">
+      <h3 class="inst_text" style="color: black;font-size: 27px;">Select image and predict whether its mango or jackfruit</h3>
+      <p class="para" style="color: black;font-size: 20px; font-weight: bold;">Recommended(jpeg, png and jpg in equal size)</p>
+      <form class="file" action="/" method="POST" enctype="multipart/form-data">
+        <input class="file_select" type="file" name="imagefile" accept="image/x-png,image/jpg,image/jpeg" required="required" onchange="loadFile(event)" />
+        <input class="submit_btn" type="submit" value="predict"/>
+      </form>
+      <img class="preview_img" id="output"/>
+      <div class="bottom">
+        {% if prediction %}
+        <h1 class="content"> This is {{prediction}} </h1>
+        {% endif %}
+        <div style="
+        width: 100%;
+        background-color: rgba(49, 53, 53, 0.034);
+        height: 100px;">
+          <a class="re_fresh" href="" style="
+            text-align: center;
+            /* padding-top: 30px; */
+            padding-left: 45%;
+            border-radius: 30px;
+            text-decoration: rgb(170, 157, 157);
+            font-size: 25px;
+            border-width: 1px;
+            border-color: rgb(216, 228, 210);
+            /* width: fit-content;
+           background-color: rgba(184, 172, 172, 0.589); */
+            color: rgb(0, 0, 0);">Clear-prediction</a>
+        </div>
+        
+      </div>
+  
+    </div>
+  </div>
+  <script>
+    var loadFile = function(event) {
+      var output = document.getElementById('output');
+      output.src = URL.createObjectURL(event.target.files[0]);
+      output.onload = function() {
+        URL.revokeObjectURL(output.src) 
+      }
+    };
+  </script>
+  
+</body>
+</html>
