@@ -1,8 +1,8 @@
 # importing libraries
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from tensorflow.keras.models import load_model,Sequential
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.optimizers import RMSprop
+from tensorflow.keras.models import Sequential
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import numpy as np
