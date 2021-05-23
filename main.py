@@ -33,7 +33,7 @@ def predict():
         object_is = 'Mango'
     else:
         print("I don't understand")
-        object_is = "Idon't understand'"
+        object_is = "I don't understand'"
         
 
     return render_template('index.html', prediction = object_is)
