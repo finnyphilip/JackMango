@@ -12,11 +12,11 @@ BFH/recpYsFoGnBOXGQeF/2021
 1. Explaining the working of project
 2. Embed video of project demo
 ## Libraries used
-Tensorflow - 
-Keras - 
-Flask - 
-NumPy - 
-Matplotlib - 
+Tensorflow - 2.5.0
+Keras - 2.4.3
+Flask - 1.0.2
+NumPy - 1.19.5
+Matplotlib - 3.0.3
 ## How to configure
 Instructions for setting up project
 ## How to Run
