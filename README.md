@@ -11,13 +11,13 @@ BFH/recpYsFoGnBOXGQeF/2021
 ## How it Works ?
 1. Explaining the working of project
 2. Embed video of project demo
-## Libraries used
-Tensorflow - 2.5.0
-Keras - 2.4.3
-Flask - 1.0.2
-NumPy - 1.19.5
-Matplotlib - 3.0.3
-## How to configure
+## Libraries Used
+1. Tensorflow - 2.5.0
+2. Keras - 2.4.3
+3. Flask - 1.0.2
+4. NumPy - 1.19.5
+5. Matplotlib - 3.0.3
+## How to Configure
 Instructions for setting up project
 ## How to Run
 Instructions for running
