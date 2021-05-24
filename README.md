@@ -18,14 +18,20 @@ BFH/recpYsFoGnBOXGQeF/2021
 4. NumPy - 1.19.5
 5. Matplotlib - 3.0.3
 ## How to Configure
-Instructions for setting up project
 Download the full file as zip . For trained model click [Here](https://drive.google.com/file/d/1T_zHntA7DccCJKorU_INCcRLe8HGqpDO/view?usp=sharing).
 ## Training 
 Extract the downloaded file. Create two new folders in your working directory and name it traning and validation. In those training and validation folder 
 create two new folders in the same name as jackfruit and mango. And put the traing images in training folder like mango images in mango folder and 
 jackfruit images in jackfruit folder. Do the same in validation folder. Open the extracted file and open the python file for training in the training folder.
-In the training python file give the appropriate directory for dataset creation (eg:training_dataset = train.flow_from_directory('training_dataset = train.flow_from_directory('training/',........)
-and also download the trained model file from [Here](https://drive.google.com/file/d/1T_zHntA7DccCJKorU_INCcRLe8HGqpDO/view?usp=sharing).
+In the training python file give the appropriate directory for dataset creation 
+(like eg:training_dataset = train.flow_from_directory('training_dataset=train.flow_from_directory('training/',........).
+Give the proper directory for saving the trained model. Run the code , it will take some time depending upone your file. And check the model is saved.
+## Testing
+Open the testing folder from extracted file and open the testing python file. Create a folder give name as testing. Put the images of mangos and jackfruit different.
+The image should be different from training and validation images.
+Give the directory for import the saved model and run the code.
+## 
+[Here](https://drive.google.com/file/d/1T_zHntA7DccCJKorU_INCcRLe8HGqpDO/view?usp=sharing).
 
 ## How to Run
 Instructions for running. [Here](https://drive.google.com/file/d/1T_zHntA7DccCJKorU_INCcRLe8HGqpDO/view?usp=sharing) is the trained model
