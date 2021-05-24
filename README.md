@@ -30,8 +30,7 @@ Give the proper directory for saving the trained model. Run the code , it will t
 Open the testing folder from extracted file and open the testing python file. Create a folder give name as testing. Put the images of mangos and jackfruit different.
 The image should be different from training and validation images.
 Give the directory for import the saved model and run the code.
-## 
-[Here](https://drive.google.com/file/d/1T_zHntA7DccCJKorU_INCcRLe8HGqpDO/view?usp=sharing).
 
 ## How to Run
-Instructions for running. [Here](https://drive.google.com/file/d/1T_zHntA7DccCJKorU_INCcRLe8HGqpDO/view?usp=sharing) is the trained model
+The downloaded file contain a main.py python file, also download the trained model from [Here](https://drive.google.com/file/d/1T_zHntA7DccCJKorU_INCcRLe8HGqpDO/view?usp=sharing). Open the python file and give the proper directory for importing the trained model. The html and css file is attached to the python file. Open the terminal and select directory and run the program. When it start to running the local ip print in the terminal and open the ip You can get the webapp. When starting the web app you can see the file selecting option click there and select the image you want to predict. After selecting you can preview the image you have been selected, then click the predic button and it predict the image of a mango or jackfruit.
+This is a binary classification, so we can't get more than two result !.
