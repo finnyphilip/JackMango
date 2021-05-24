@@ -5,14 +5,18 @@ This project can be used to predict a given image is a Mango or Jackfruit using 
 1. [Mohammed Fudhail P](https://github.com/mhdfudhail)
 2. [Finny Philip Biju](https://github.com/finnyphilip)
 ## Team Id
-Team id here
+BFH/recpYsFoGnBOXGQeF/2021
 ## Link to product walkthrough
 [link to video]
 ## How it Works ?
 1. Explaining the working of project
 2. Embed video of project demo
 ## Libraries used
-Library Name - Version
+Tensorflow - 
+Keras - 
+Flask - 
+NumPy - 
+Matplotlib - 
 ## How to configure
 Instructions for setting up project
 ## How to Run
