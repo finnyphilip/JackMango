@@ -1,9 +1,9 @@
 ![BFH Banner](https://trello-attachments.s3.amazonaws.com/542e9c6316504d5797afbfb9/542e9c6316504d5797afbfc1/39dee8d993841943b5723510ce663233/Frame_19.png)
-# Project Name
-Long Description about project. This project do that. This project is awesome...
+# JackMango ML Classifier
+This project can be used to predict a given image is a Mango or Jackfruit using Machine Learning. A CNN algorithm is at the heart of this project which was implemented through tensorflow machine learning library. A web app can classify the given image is a Mango or Jackfruit.
 ## Team members
-1. Name [Embed personal github URL]
-2. Name [Embed perosnal github URL]
+1. [Mohammed Fudhail P](https://github.com/mhdfudhail)
+2. [Finny Philip Biju](https://github.com/finnyphilip)
 ## Team Id
 Team id here
 ## Link to product walkthrough
