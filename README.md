@@ -20,4 +20,4 @@ BFH/recpYsFoGnBOXGQeF/2021
 ## How to Configure
 Instructions for setting up project
 ## How to Run
-Instructions for running
+Instructions for running. [Here](https://drive.google.com/file/d/1T_zHntA7DccCJKorU_INCcRLe8HGqpDO/view?usp=sharing) is the trained model
