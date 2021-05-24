@@ -27,7 +27,7 @@ In the training python file give the appropriate directory for dataset creation
 (like eg:training_dataset = train.flow_from_directory('training_dataset=train.flow_from_directory('training/',........).
 Give the proper directory for saving the trained model. Run the code , it will take some time depending upone your file. And check the model is saved.
 ## Testing
-Open the testing folder from extracted file and open the testing python file. Create a folder give name as testing. Put the images of mangos and jackfruit different.
+Open the 'testing' folder from extracted file and open the testing python file. Create a folder give name as 'test'. Put the images of mangos and jackfruit.
 The image should be different from training and validation images.
 Give the directory for import the saved model and run the code.
 
