@@ -22,9 +22,9 @@ BFH/recpYsFoGnBOXGQeF/2021
 3. Flask - 1.0.2
 4. NumPy - 1.19.5
 5. Matplotlib - 3.0.3
-# How to Configure
+## How to Configure
 Download the repository as zip. For downloading trained model click [Here](https://drive.google.com/file/d/1T_zHntA7DccCJKorU_INCcRLe8HGqpDO/view?usp=sharing).
-## Training 
+### Training 
 1. Extract the downloaded file.
 2. Create two new folders in your working directory and name it 'traning' and 'validation'.
 3. In these training and validation folder create two new folders in the same name as 'jackfruit' and 'mango'.
@@ -34,7 +34,7 @@ Download the repository as zip. For downloading trained model click [Here](https
 6. In the training python file give the appropriate directory for dataset creation 
 ( eg:training_dataset = train.flow_from_directory('training_dataset=train.flow_from_directory('training/',........).
 7. Give the proper directory for saving the trained model. Run the code , it will take some time depending upon your training file. And check the model whether is saved.
-## Testing
+### Testing
 1. Open the 'testing' folder from extracted file and open the testing python file. Create a folder and give name as 'test'. 
 2. Keep images of both mango and jackfruit in the 'test' folder.The image should be different from training and validation images.
 3. Give the directory to import the saved model and run the code.
