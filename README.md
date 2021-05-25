@@ -22,7 +22,7 @@ BFH/recpYsFoGnBOXGQeF/2021
 3. Flask - 1.0.2
 4. NumPy - 1.19.5
 5. Matplotlib - 3.0.3
-## How to Configure
+# How to Configure
 Download the repository as zip. For downloading trained model click [Here](https://drive.google.com/file/d/1T_zHntA7DccCJKorU_INCcRLe8HGqpDO/view?usp=sharing).
 ## Training 
 1. Extract the downloaded file.
