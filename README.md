@@ -4,10 +4,6 @@ This project can be used to predict a given image is a Mango or Jackfruit using 
 ## Team members
 1. [Mohammed Fudhail P](https://github.com/mhdfudhail)
 2. [Finny Philip Biju](https://github.com/finnyphilip)
-## Team Id
-BFH/recpYsFoGnBOXGQeF/2021
-## Link to product walkthrough
-[link to video](https://drive.google.com/file/d/1O3070_BHyyo_Pt7lx2VzFEFHDRQuYpq4/view?usp=sharing)
 ## How it Works ?
 1. A CNN algorithm is created using tensorflow an keras libraries. 
 2. The training dataset is created using images of mango and Jackfruit from google images.
